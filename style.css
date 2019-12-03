@@ -1,0 +1,57 @@
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 25px;
+}
+
+li a{
+    display: inline-block;
+    font-family: "Arial", sans-serif;
+    font-weight: lighter;
+    font-size: small;
+    padding: 8px;
+    color: darkslategray;
+    text-decoration: none;
+}
+
+li a:hover{
+    text-decoration: underline;
+}
+
+li.left {
+    float: left;
+}
+
+li.right {
+    float: right;
+}
+
+div.logo {
+    width: min-content;
+    display: block;
+    margin: 10% auto 1% auto;
+}
+
+input {
+    display: block;
+    margin: auto;
+    width: 35%;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: white;
+    border-width: 1px;
+}
+
+button {
+    border: none;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 5px;
+    color: darkslategray;
+}
+
+div.buttons {
+    margin: 1% auto;
+    width: max-content;
+}
