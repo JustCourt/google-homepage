@@ -1,8 +1,26 @@
+body {
+    margin: 0px;
+    min-height: 100vh;
+}
+
 ul.navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
     height: 25px;
+    padding: 0.5rem;
+}
+
+div.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+div.footer ul.navbar {
+    border-top: 1px solid lightgray;
 }
 
 li a{
@@ -35,20 +53,32 @@ div.logo {
 
 input {
     display: block;
-    margin: auto;
-    width: 35%;
+    margin: 20px auto;
+    width: 500px;
     border-radius: 20px;
     padding: 10px;
     background-color: white;
     border-width: 1px;
+    border-color:lightgray;
+    border-style: solid;
 }
 
-button {
-    border: none;
+input:hover, input:focus{
+    box-shadow: 0 0 5px 1px lightgray;
+}
+
+.buttons button {
+    border: 0.5px solid whitesmoke;
     background-color: whitesmoke;
     padding: 10px;
     border-radius: 5px;
+    font-size: 0.75rem;
     color: darkslategray;
+}
+
+.buttons button:hover{
+    border: 0.5px solid lightgray;
+    color: black;
 }
 
 div.buttons {
