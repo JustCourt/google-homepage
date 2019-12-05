@@ -65,6 +65,7 @@ input {
 
 input:hover, input:focus{
     box-shadow: 0 0 5px 1px lightgray;
+    outline: none;
 }
 
 .buttons button {
@@ -76,9 +77,10 @@ input:hover, input:focus{
     color: darkslategray;
 }
 
-.buttons button:hover{
+.buttons button:hover, button:focus{
     border: 0.5px solid lightgray;
     color: black;
+    outline: none;
 }
 
 div.buttons {
