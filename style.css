@@ -61,6 +61,10 @@ input {
     border-width: 1px;
     border-color:lightgray;
     border-style: solid;
+    background: url(search-icon.png) no-repeat;
+    background-size: 18px;
+    background-position: 10px 10px;
+    text-indent: 25px;
 }
 
 input:hover, input:focus{
